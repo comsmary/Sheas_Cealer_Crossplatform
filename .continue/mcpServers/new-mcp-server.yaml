@@ -1,0 +1,10 @@
+name: New MCP server
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: ida-pro-mcp
+    command: "C:\\Users\\zmq13\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
+    args:
+      - "C:\\Users\\zmq13\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\ida_pro_mcp\\server.py"
+    timeout: 1800
+    disabled: false
